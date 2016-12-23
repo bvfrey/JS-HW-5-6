@@ -1,0 +1,22 @@
+.timer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 7rem;
+    font-family: verdana, sans-serif;
+    font-weight: 700;
+    color: DarkSlateGray;
+    background-color: azure;
+    text-align: center;
+    border: 5px solid DarkSlateGray;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+span {
+    padding-left: 10px;
+    font-size: 0.5em;
+}
+
+.btn {
+    font-size: 40px;
+}

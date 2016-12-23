@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Timer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/styles.css" rel="stylesheet">
+  </head>
+</html>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <header class="well">
+                    <h1>Your personal on-line timer</h1>
+                    <p class="alert alert-danger" id="latin1">Tempus est optimus magister vitae</p>
+                    <p class="alert alert-info" id="latin2">Fugit irreparabile tempus</p>
+                    <p class="alert alert-success" id="latin3">Tempora mutantur et nos mutamur in illis</p>
+                </header>
+
+                <div class="timer" id="idTimer">
+                    00:00:00<span>000</span>
+                </div>
+
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-success btn-block" id="idStart">START</button>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-danger btn-block" id="idClear">Clear</button>
+            </div>
+            <div class="col-sm-2"></div>
+
+        </div>
+    </div>
+    <script src="js/test.js" ></script>
+</body>
+</html>
